@@ -1,2 +1,8 @@
 웹에서의 제목의 depth는 6단계까지만 가능하다. why?
 <h1> ~ <h6>
+
+[과제]
+comming soon 이라는 psd 파일 만들어서 올릴 것.
+
+unsplash.com 에서 배경이미지 받으면 된다. 프리.
+
