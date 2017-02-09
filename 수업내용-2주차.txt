@@ -7,5 +7,7 @@ gif를 대체하는 포맷이 psd 이다.
 
 vh : viewport height - 최근에 나온 단위
 
+[CSS 공부사이트]
+http://ko.learnlayout.com/box-model.html
 
 
