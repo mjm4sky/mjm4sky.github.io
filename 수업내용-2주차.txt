@@ -11,3 +11,8 @@ vh : viewport height - 최근에 나온 단위
 http://ko.learnlayout.com/box-model.html
 
 
+[RGB 컬러]
+적녹색맹은 많아도, 청색맹은 통계적으로 거의 없다.
+
+
+
