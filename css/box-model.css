@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+}
+
+p {
+	background-color : #ff3300;
+	width : 500px;
+	height : 70px;
+	color : #ffffff;
+	padding : 10px auto;
+
+	margin: 0 0 5px;		/* margin-top : 0; margin-bottom : 0; 과 동일 */
+	border : 10px solid #330099;
+
+	display : inline-block;
+	text-align : center;
+}

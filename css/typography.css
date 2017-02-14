@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	background: url(../images/leading24.png);
+}
+
+p {
+	margin-top: 0;
+
+	/* 
+		em : 상대적인 값, 영문 대문자의 1글자 크기 
+		16 * 1.5 = 24
+	*/
+	margin-bottom: 1.5em;	
+	font-size: 16px;
+
+	/* 16 * 1.5 = 24 */
+	line-height: 1.5;
+
+	font-family: "Spoqa Han Sans", "Spoqa Han Sans KR', "Sans-serif";
+
+	/* 자간을 의미한다. -5/1000 */
+	letter-spacing: -0.005em;
+}

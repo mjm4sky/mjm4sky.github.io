@@ -1,0 +1,14 @@
+3주차 수업 내용 / 2017.02.14
+
+letter-spacing / line-height 에는 px(고정값)을 사용하지 않는다.
+
+html에서 기본 폰트 크기는 16px 이다. 그래서 모든 요소는 margin 16px을 가지고 있다.
+
+html은 기본적으로 모든게 박스로 존재한다.
+
+padding - border 안에서 작동 / 색상이 먹는다.
+margin  - border 밖에서 작동 / 색상이 먹지 않는다. / 박스 간의 간격 조정
+
+
+
+
