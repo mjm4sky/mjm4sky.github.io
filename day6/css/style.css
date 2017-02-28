@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+html {
+    /*rem 단위 사용에 좋다.*/
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: url("../images/leading21px.png");
+
+    /*본문디자인(상속)*/
+    /* 상속을 위해 body 태그에 기술하는 css는 속기형으로 사용하고 본문에서 overriding 한다. */
+    /*font: [두께] [기울기]  크기[/행간] 글꼴 */
+    font: 1.4rem/1.5 "Spoqa Han Sans";
+
+    /*font-family: "Spoqa Han Sans";*/
+    /*font-size: 1.4rem;*/
+    line-height: 1.5; /* 단위를 붙이면 버그가 발생 */
+    letter-spacing: -0.02em; /* -20/1000 */
+    color: #333741;
+}
+
+/*본문 디자인 - 상속이 되는 것과 안되는 것을 구분해서 작성한다. */
+
+/* 제목/단락 공통 디자인 */
+h1,h2,h3,h4,h5,h6,p {
+    /*margin-top: 1.5em;*/
+    margin-top: 2.1rem;
+    margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+    letter-spacing: -0.05em;
+}
+
+h1 {
+    /* 나머지 폰트 스타일은 body에서 상속을 받는다. */
+    font-size: 5.463rem;
+    line-height: 6.3rem; /* 21px * 3칸, letter-spacing이 21px이다. */ 
+}
+/*h2 {}*/
+h3 {
+    font-size: 3.169rem;
+    line-height: 4.2rem;
+}
+/*h4 {}*/
+h5 {
+    font-size: 1.838rem;
+    color: #787f94;
+}
+h6 {
+    font-size: 1.563rem;
+    color: #787f94;
+}
+
+
+/*목록 공통 디자인*/
+ul, ol {}
+
+
+ul {}
+ol {}
+
+
+li {}
